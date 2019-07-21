@@ -1,0 +1,31 @@
+.toast {
+  border-radius: 4px;
+  color: #ffffff;
+  display: flex;
+  padding: 16px;
+}
+
+.toast__content {
+  margin: 0 12px 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.toast__dismiss {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  font: inherit;
+  padding: 0;
+}
+
+.toasts {
+  bottom: 24px;
+  position: fixed;
+  right: 24px;
+  width: 240px;
+}
